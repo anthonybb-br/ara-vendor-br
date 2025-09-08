@@ -1,0 +1,12 @@
+
+// Conversão
+Conversion = DIVIDE(SUM('Traffic'[orderedUnits]), SUM('Traffic'[glanceViews]))
+// ASP
+ASP = DIVIDE(SUM('Sales'[shippedRevenue]), SUM('Sales'[shippedUnits]))
+// Net PPM %
+NetPPM % = AVERAGE('NetPPM'[netPureProductMargin])
+// Forecast
+Forecast Mean (Units) = AVERAGE('Forecast'[meanForecastUnits])
+Forecast P70 (Units) = AVERAGE('Forecast'[p70ForecastUnits])
+Forecast P80 (Units) = AVERAGE('Forecast'[p80ForecastUnits])
+Forecast P90 (Units) = AVERAGE('Forecast'[p90ForecastUnits])
