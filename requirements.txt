@@ -1,0 +1,6 @@
+requests
+pycryptodome
+pandas
+python-dotenv
+openpyxl
+azure-storage-blob
